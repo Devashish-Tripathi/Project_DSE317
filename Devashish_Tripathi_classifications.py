@@ -399,6 +399,6 @@ class final_classifier:
         y = ada_model.predict(df_test)
         print(len(y))
         print(y)
-        with open('output.txt', 'w') as file:
+        with open('Devashish_Tripathi_testlabels.txt', 'w') as file:
             for out in y:
                 file.write(f'{out}\n')
